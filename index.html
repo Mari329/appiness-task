@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Aster CMI Hospital</title>
+
+	<link rel="stylesheet" href="style.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<link href="http://fonts.cdnfonts.com/css/stag-sans-light" rel="stylesheet">
+                
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+	<!-- Banner starts -->
+
+	<div class="banner-container">
+		<div class="banner-content">
+			<div class="banner-content-left">
+				<img class="banner-logo" src="images/aster_logo_white.png" alt="logo" />
+				<p class="banner-header">ADULT & PAEDIATRIC BONE MARROW TRANSPLANT PROGRAMME</p>
+				<p class="banner-types">Haematology | Oncology | Immunology</p>
+				<div class="button-red">Book An Appoinment</div>
+			</div>
+			<div class="banner-content-right">
+				<div class="enquiry-container">
+					<h2>Enquire now</h2>
+					<form>
+						<input type="text" name="name" placeholder="Name" />
+						<input type="email" name="email" placeholder="Email ID" />
+						<input type="text" name="phone" placeholder="Phone number" />
+						<textarea name="message">Your Message</textarea>
+						<div class="robot-checkbox">
+							<input type="checkbox" id="robot" name="robot">
+							<label for="robot">I’m not a robot</label>
+							<img src="images/recaptcha-logo.svg" alt="recaptcha-logo">
+						</div>
+
+						<div class="button-red submit">Submit</div>
+						
+					</form>
+				</div>	
+			</div>
+			
+			
+		</div>
+	</div>
+
+	<!-- Page content starts -->
+
+	<div class="page-content-container">
+		<div class="page-content">
+			<div class="bone-marrow-container">
+				<img class="bone-marrow_img" src="images/bone-marrow.png" alt="bone-marrow" />
+				<div class="bone-marrow-text-container">
+					<div class="bone-marrow-text-header gradiant-bg">Bone Marrow Transplant (BMT) better known as haematopoietic stem cell transplant(HSCT) as bone marrow cells are transplanted</div>
+					
+					<div class="bone-marrow-text-conent">Replacement of diseased or defective marrow with marrow from a healthy donor</div>
+					<div class="line"></div>
+					<div class="bone-marrow-text-conent">Medicines and in certain situations radiotherapy as well is given to get rid of diseased marrow and bone marrow cells from healthy donor is given to replace it.</div>
+					<div class="line"></div>
+					<div class="bone-marrow-text-conent">IN autologous bone marrow transplant, high dose chemotherapy is given to kill cancer cells and child own marrow cells are given back</div>
+
+				</div>
+			</div>
+			
+			<div class="doctor-container">
+				<h1 class="doctor-heading">Doctor</h1>
+
+				<!-- Dynamic Doctor cards goes here -->
+
+			</div>
+			
+			<div class="types-container">
+				<h1>What are the types of Bone Marrow Transplant?</h1>
+
+				<ul>
+					<!-- Dynamic lists goes here -->
+				</ul>
+			</div>
+
+			<div class="warning-signs-container">
+				<h1>The warning signs of Immune deficiency</h1>
+				<div class="warning-signs-content">
+					
+					<!-- Dynamic warning cards goes here -->
+
+				</div>
+			</div>
+
+			<div class="toggle-content-container">
+
+				<!-- Dynamic toggle contents goes here -->
+
+			</div>
+
+
+			<div class="testimonials-container">
+				<div class="testimonials-header">
+					<h1>Testimonials</h1>
+					<div class="testimonials-arrows-container">
+						<span class="arrow" onclick="lefttArrowClick(event)">&#8592;</span>
+						<span class="arrow" onclick="rightArrowClick(event)">&#8594;</span>
+					</div>
+				</div>
+
+				<div class="testimonials-txt">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </div>
+
+				<div class="testimonials-card-container">
+
+				</div>
+
+				<div class="book-appoinment-container">
+					<div class="button-blue">Book An Appoinment</div>
+				</div>
+				
+			</div>
+
+
+		</div>
+	</div>
+
+	<!-- Footer starts -->
+
+	<div class="footer-container">
+		<div class="footer-content">
+			<div class="social-icons-container">
+				<img class="social-icons" src="images/facebook.png" alt="facebook" />
+				<img class="social-icons" src="images/facebook.png" alt="facebook" />
+				<img class="social-icons" src="images/facebook.png" alt="facebook" />
+				<img class="social-icons" src="images/twitter.png" alt="twitter" />
+				<img class="social-icons" src="images/facebook.png" alt="facebook" />
+				<img class="top-arrow" src="images/top-arrow.png" alt="top of page" onclick="backToTop()" />
+			</div>
+			<div class="line"></div>
+			<div class="rights-reserved">Aster CMI. All Rights Reserved</div>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
